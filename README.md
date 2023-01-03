@@ -1,4 +1,4 @@
-# Recursive-Descent-Parsing
+# Recursive Descent Parsing
 
 Penn State CMPSC 461 Assignment: Parsing has 2 steps, lexical and syntactical analysis
 
