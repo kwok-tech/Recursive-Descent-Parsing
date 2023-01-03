@@ -185,6 +185,7 @@ class Parser:
         sys.exit(1)
 
 
+#Testing Lexer
 print("Testing the lexer: test 1")
 lex = Lexer ("<body> google <b><i><b> yahoo</b></i></b></body> $")
 tk = lex.nextToken()
@@ -194,7 +195,7 @@ while (tk.getTokenType() != EOI):
 print("")
 
 
-
+#Testing Parser
 print("Testing the parser: test 1")
 parser = Parser ("<body> google <b><i><b><ul> <li> item1 <\li> <li> item2 <\li> </ul> yahoo</b></i></b></body>")
 parser.run()
